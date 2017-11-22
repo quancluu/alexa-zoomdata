@@ -1,0 +1,50 @@
+{
+  "type": "START_VIS",
+  "cid": "__CID__",
+  "sourceId": "__SOURCE_ID__",
+  "filters": [
+
+  ],
+  "time": {
+    "from": "__START_TIME__",
+    "to": "__END_TIME__",
+    "timeField": "record_hour"
+  },
+  "player": null,
+  "aggregate": true,
+  "dimensions": [
+    {
+      "aggregations": [
+        {
+          "type": "TERMS",
+          "field": {
+            "name": "__ATTRIBUTE__"
+          }
+        }
+      ],
+      "window": {
+        "type": "COMPOSITE",
+        "aggregationWindows": [
+          {
+            "limit": 50,
+            "sort": {
+              "direction": "DESC",
+              "type": "METRIC",
+              "metric": {
+                "type": "COUNT"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "metrics": [
+    {
+      "type": "COUNT"
+    },
+    {
+      "type": "COUNT"
+    }
+  ]
+}

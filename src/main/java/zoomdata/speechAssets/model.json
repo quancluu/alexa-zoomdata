@@ -1,0 +1,568 @@
+{
+  "languageModel": {
+    "types": [
+      {
+        "name": "DATE",
+        "values": []
+      },
+      {
+        "name": "LIST_OF_ATTRIBUTES",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "gender",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "usercity",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "userstate",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "zipcode",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "category",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "userincome",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "city",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "state",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "county",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "group",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "group name",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "time",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "date",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "fruit",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "at this hour",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "this hour",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "last hour",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "today",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "yesterday",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "hour",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "tech talk",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "techtalk",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "team",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "LIST_OF_CHART_TYPES",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "PIE",
+              "synonyms": [
+                "pie"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "BAR",
+              "synonyms": [
+                "bar"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "LIST_OF_COLORS",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "green",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "blue",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "purple",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "red",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "orange",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "yellow",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "LIST_OF_METRICS",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "sales",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "price",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "count",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "volume",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "transactions",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "real time",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "LIST_OF_RANGES",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "since",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "on",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "before",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "after",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "BETWEEN",
+              "synonyms": []
+            }
+          }
+        ]
+      }
+    ],
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "ChartIntent",
+        "samples": [
+          " to build for me a {ChartType} chart for {Metric} based on {Attribute}",
+          " to build for me {ChartType} chart for {Metric} based on {Attribute}",
+          " to build {ChartType} chart for {Metric} based on {Attribute}",
+          " to build a {ChartType} chart for {Metric} based on {Attribute}",
+          " to create a {ChartType} chart for {Metric} based on {Attribute}",
+          " to create {ChartType} chart for {Metric} based on {Attribute}",
+          " to tell me my {Metric} distribution based on {Attribute}"
+        ],
+        "slots": [
+          {
+            "name": "Color",
+            "type": "LIST_OF_COLORS"
+          },
+          {
+            "name": "Attribute",
+            "type": "LIST_OF_ATTRIBUTES"
+          },
+          {
+            "name": "Metric",
+            "type": "LIST_OF_METRICS"
+          },
+          {
+            "name": "ChartType",
+            "type": "LIST_OF_CHART_TYPES"
+          }
+        ]
+      },
+      {
+        "name": "DistributionIntent",
+        "samples": [
+          " what's the {Metric} distribution based on {Attribute}",
+          " what's the distribution of {Metric} by {Attribute}",
+          " what's the distribution of {Metric} based on {Attribute}",
+          "about {Metric} based on user {Attribute}",
+          "about {Metric} based on {Attribute}",
+          " to show me the {Metric} distribution based on {Attribute}",
+          " to show me the distribution of {Metric} by {Attribute}",
+          " to show me the distribution of {Metric} based on {Attribute}",
+          " to show the {Metric} distribution based on {Attribute}",
+          " to show the distribution of {Metric} by {Attribute}",
+          " to show the distribution of {Metric} based on {Attribute}",
+          " to show the {Metric} distribution {RangeType} {TimeFilter}",
+          " to show the distribution of {Metric} {RangeType} {TimeFilter}",
+          " to give me the {Metric} distribution based on {Attribute}",
+          " to give me the distribution of {Metric} by {Attribute}",
+          " to give me the distribution of {Metric} based on {Attribute}"
+        ],
+        "slots": [
+          {
+            "name": "Metric",
+            "type": "LIST_OF_METRICS"
+          },
+          {
+            "name": "Attribute",
+            "type": "LIST_OF_ATTRIBUTES"
+          },
+          {
+            "name": "RangeType",
+            "type": "LIST_OF_RANGES"
+          },
+          {
+            "name": "TimeFilter",
+            "type": "AMAZON.DATE"
+          }
+        ]
+      },
+      {
+        "name": "RealTimeIntent",
+        "samples": [
+          "currently what's the order distribution of {Attribute}",
+          "right now what's the order distribution of {Attribute}",
+          "at this hour what are the top three popular {Attribute}",
+          "right now what are the top three popular {Attribute}",
+          "currently what are the top three popular {Attribute}",
+          "right now what's the total order {Metric} for all fruits",
+          "right now what's the total {Metric} of all fruits",
+          "currently what's the total order {Metric} for all fruits",
+          "currently what's the total {Metric} of all fruits"
+        ],
+        "slots": [
+          {
+            "name": "Attribute",
+            "type": "LIST_OF_ATTRIBUTES"
+          },
+          {
+            "name": "Metric",
+            "type": "LIST_OF_METRICS"
+          },
+          {
+            "name": "ChartType",
+            "type": "LIST_OF_CHART_TYPES"
+          }
+        ]
+      },
+      {
+        "name": "RealTimeIntentTrends",
+        "samples": [
+          "what's trending at twitter {Attribute}",
+          "what's trending at twitter at this {Attribute}",
+          "what's trending at twitter on this {Attribute}"
+        ],
+        "slots": [
+          {
+            "name": "Attribute",
+            "type": "LIST_OF_ATTRIBUTES"
+          },
+          {
+            "name": "Metric",
+            "type": "LIST_OF_METRICS"
+          },
+          {
+            "name": "ChartType",
+            "type": "LIST_OF_CHART_TYPES"
+          }
+        ]
+      },
+      {
+        "name": "RealTimeIntentTweets",
+        "samples": [
+          "what's the distribution of tweets related to zoomdata and spark summit {Attribute}",
+          "what's the total {Metric} of tweets related to zoomdata and spark summit {Attribute}"
+        ],
+        "slots": [
+          {
+            "name": "Attribute",
+            "type": "LIST_OF_ATTRIBUTES"
+          },
+          {
+            "name": "Metric",
+            "type": "LIST_OF_METRICS"
+          },
+          {
+            "name": "ChartType",
+            "type": "LIST_OF_CHART_TYPES"
+          }
+        ]
+      },
+      {
+        "name": "StockIntent",
+        "samples": [
+          "Hows my stock {DATE}",
+          "Hows my stocks {DATE}",
+          "tell me about my stocks {DATE}"
+        ],
+        "slots": [
+          {
+            "name": "DATE",
+            "type": "DATE"
+          }
+        ]
+      },
+      {
+        "name": "TopIntent",
+        "samples": [
+          "to find me the top three {Attribute} in terms of {Metric}",
+          "to find me the top three {Attribute} based on {Metric}",
+          "to find for me the top three {Attribute} in terms of {Metric}",
+          "to find for me the top three {Attribute} based on {Metric}",
+          "to give me the top three {Attribute} in terms of {Metric}",
+          "to give me the top three {Attribute} based on {Metric}",
+          " to tell me the top three {Attribute} based on {Metric}",
+          " to tell me the top three {Attribute} in terms of {Metric}",
+          " to tell me the top three {Attribute} in {Metric}"
+        ],
+        "slots": [
+          {
+            "name": "Metric",
+            "type": "LIST_OF_METRICS"
+          },
+          {
+            "name": "Attribute",
+            "type": "LIST_OF_ATTRIBUTES"
+          },
+          {
+            "name": "RangeType",
+            "type": "LIST_OF_RANGES"
+          },
+          {
+            "name": "TimeFilter",
+            "type": "AMAZON.DATE"
+          }
+        ]
+      },
+      {
+        "name": "WelcomeIntent",
+        "samples": [
+          "{Attribute} who you are",
+          "{Attribute} what can you do",
+          "say hi to {Attribute}",
+          "say hi to {Attribute} group",
+          "say hello to {Attribute}",
+          "say hello to {Attribute} group",
+          "to say hello",
+          "to say hi",
+          "to say welcome",
+          "to say some greeting",
+          "what can you do"
+        ],
+        "slots": [
+          {
+            "name": "Attribute",
+            "type": "LIST_OF_ATTRIBUTES"
+          }
+        ]
+      },
+      {
+        "name": "WelcomeIntentRealtime",
+        "samples": [
+          "what can you do in real time"
+        ],
+        "slots": [
+          {
+            "name": "Attribute",
+            "type": "LIST_OF_ATTRIBUTES"
+          }
+        ]
+      }
+    ],
+    "invocationName": "zoom data"
+  }
+}

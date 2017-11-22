@@ -1,0 +1,162 @@
+{
+  "name": "__VIS_NAME__",
+  "description": "",
+  "layout": "unset",
+  "showDescription": false,
+  "visualizations": [
+    {
+      "id": "5a0e1cfce4b0e5f6a5084e55",
+      "visId": "58b5e1c8e4b05f19ec13fa0a",
+      "widgetId": "a41f78dcbb2855db99c1ce3384e9ee3b",
+      "dashboardLink": {"inheritFilterCfg": true},
+      "controlsCfg": {
+        "id": "5a0e1665e4b0e5f6a5084e28",
+        "visualizationDefId": "5a0e1665e4b0e5f6a5084e27",
+        "timeControlCfg": {
+          "from": "__START_TIME__",
+          "to": "__END_TIME__",
+          "timeField": "_ts"
+        },
+        "playerControlCfg": {}
+      },
+      "layout": {
+        "col": 1,
+        "row": 1,
+        "colSpan": 4,
+        "rowSpan": 4
+      },
+      "name": "Pie",
+      "type": "PIE",
+      "source": {
+        "variables": {
+          "Chart Name": "__VIS_NAME__",
+          "Size": [
+            {
+              "name": "count"
+            }
+          ],
+          "Chart Description": "",
+          "Group By": {
+            "name": "__ATTRIBUTE__",
+            "limit": 50,
+            "sort": {
+              "dir": "desc",
+              "name": "count"
+            },
+            "label": "__ATTRIBUTE__",
+            "type": "ATTRIBUTE",
+            "groupColorSet": "ZoomPalette",
+            "autoShowColorLegend": true,
+            "colorNumb": 50,
+            "autoColor": true,
+            "groupColors": {
+              "California": "#0095b7",
+              "Texas": "#a0b774",
+              "New York": "#f4c658",
+              "Florida": "#fe8b3e",
+              "Illinois": "#cf2f23",
+              "Pennsylvania": "#756c56",
+              "Ohio": "#007896",
+              "Georgia": "#47a694",
+              "Michigan": "#f9a94b",
+              "North Carolina": "#ff6b30",
+              "New Jersey": "#e94d29",
+              "Virginia": "#005b76",
+              "Washington": "#0095b7",
+              "Massachusetts": "#a0b774",
+              "Arizona": "#f4c658",
+              "Indiana": "#fe8b3e",
+              "Tennessee": "#cf2f23",
+              "Missouri": "#756c56",
+              "Maryland": "#007896",
+              "Wisconsin": "#47a694",
+              "Minnesota": "#f9a94b",
+              "Colorado": "#ff6b30",
+              "Alabama": "#e94d29",
+              "South Carolina": "#005b76",
+              "Louisiana": "#0095b7",
+              "Kentucky": "#a0b774",
+              "Oregon": "#f4c658",
+              "Oklahoma": "#fe8b3e",
+              "Connecticut": "#cf2f23",
+              "Iowa": "#756c56",
+              "Mississippi": "#007896",
+              "Arkansas": "#47a694",
+              "Kansas": "#f9a94b",
+              "Utah": "#ff6b30",
+              "Nevada": "#e94d29",
+              "New Mexico": "#005b76",
+              "West Virginia": "#0095b7",
+              "Nebraska": "#a0b774",
+              "Idaho": "#f4c658",
+              "Hawaii": "#fe8b3e",
+              "Maine": "#cf2f23",
+              "New Hampshire": "#756c56",
+              "Rhode Island": "#007896",
+              "Montana": "#47a694",
+              "Delaware": "#f9a94b",
+              "South Dakota": "#ff6b30",
+              "Alaska": "#e94d29",
+              "North Dakota": "#005b76",
+              "District of Columbia": "#0095b7",
+              "Vermont": "#a0b774"
+            }
+          },
+          "_SubheadFiltersList": true,
+          "UberBarsSettings": {
+            "showAbsoluteValues": true,
+            "showRelativeValues": true,
+            "showGroupLabels": true
+          },
+          "Font": {
+            "title": {
+              "size": "normal",
+              "typeface": "sans",
+              "align": "left",
+              "style": ""
+            }
+          },
+          "Rulers": {
+            "gridlines": {
+              "X1grid": false,
+              "Y1grid": false,
+              "X2grid": false,
+              "Y2grid": false
+            },
+            "axis": [],
+            "reflines": []
+          }
+        },
+        "sourceId": "__SOURCE_ID__",
+        "sourceName": "Alexa_RTS_Source",
+        "sourceType": "EDC2",
+        "sparkIt": false,
+        "playbackMode": false,
+        "textSearchEnabled": false,
+        "live": false,
+        "filters": []
+      }
+    }
+  ],
+  "shareState": "NOT_SHARED",
+  "rememberTime": true,
+  "unifiedBarCfgs": [
+    {
+      "id": "5a0e1665e4b0e5f6a5084e28",
+      "dashboardId": "5a0e1cfce4b0e5f6a5084e53",
+      "timeControlCfg": {
+        "from": "__START_TIME__",
+        "to": "__END_TIME__",
+        "timeField": "_ts"
+      },
+      "playerControlCfg": {},
+      "widgetIds": ["a41f78dcbb2855db99c1ce3384e9ee3b"],
+      "visualizationDefId": "5a0e1665e4b0e5f6a5084e27"
+    }
+  ],
+  "type": "UBER_BARS",
+  "userId": "58b5e1c8e4b05f19ec13f9e1",
+  "viewsCount": 0,
+  "selectedWidgetId": "a41f78dcbb2855db99c1ce3384e9ee3b",
+  "ownerName": "admin"
+}

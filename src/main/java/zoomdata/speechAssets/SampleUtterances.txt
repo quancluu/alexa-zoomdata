@@ -1,0 +1,77 @@
+StockIntent Hows my stocks today
+StockIntent tell me about stock for {Company}
+StockIntent whats stock price for {Company}
+StockIntent whats stock price for symbol {Symbol}
+StockIntent tell me about stock for symbol {Symbol}
+
+
+TopIntent to find me the top three {Attribute} in terms of {Metric}
+TopIntent to find me the top three {Attribute} based on {Metric}
+TopIntent to give me the top three {Attribute} in terms of {Metric}
+TopIntent to give me the top three {Attribute} based on {Metric}
+TopIntent  to tell me the top three {Attribute} based on {Metric}
+TopIntent  to tell me the top three {Attribute} in terms of {Metric}
+TopIntent  to tell me the top three {Attribute} in {Metric}
+
+ChartIntent  to build for me a {ChartType} chart for {Metric} based on {Attribute}
+ChartIntent  to build for me {ChartType} chart for {Metric} based on {Attribute}
+ChartIntent  to build {ChartType} chart for {Metric} based on {Attribute}
+ChartIntent  to build a {ChartType} chart for {Metric} based on {Attribute}
+ChartIntent  to create a {ChartType} chart for {Metric} based on {Attribute}
+ChartIntent  to create {ChartType} chart for {Metric} based on {Attribute}
+ChartIntent  to tell me my {Metric} distribution based on {Attribute}
+
+DistributionIntent  what's the {Metric} distribution based on {Attribute}
+DistributionIntent  what's the {Metric} distribution based on {Attribute}
+DistributionIntent  what's the distribution of {Metric} by {Attribute}
+DistributionIntent  what's the distribution of {Metric} based on {Attribute}
+
+DistributionIntent about {Metric} based on {Attribute} 
+
+
+DistributionIntent  to show me the {Metric} distribution based on {Attribute}
+DistributionIntent  to show me the {Metric} distribution based on {Attribute}
+DistributionIntent  to show me the distribution of {Metric} by {Attribute}
+DistributionIntent  to show me the distribution of {Metric} based on {Attribute}
+
+DistributionIntent  to show the {Metric} distribution based on {Attribute}
+DistributionIntent  to show the {Metric} distribution based on {Attribute}
+DistributionIntent  to show the distribution of {Metric} by {Attribute}
+DistributionIntent  to show the distribution of {Metric} based on {Attribute}
+
+DistributionIntent  to show the {Metric} distribution {RangeType} {TimeFilter}
+DistributionIntent  to show the distribution of {Metric} {RangeType} {TimeFilter}
+
+DistributionIntent  to give me the {Metric} distribution based on {Attribute}
+DistributionIntent  to give me the {Metric} distribution based on {Attribute}
+DistributionIntent  to give me the distribution of {Metric} by {Attribute}
+DistributionIntent  to give me the distribution of {Metric} based on {Attribute}
+
+RealTimeIntent currently what's the order distribution of {Attribute} 
+RealTimeIntent at this hour what are the top three popular {Attribute}
+RealTimeIntent currently what are the top three popular {Attribute}
+RealTimeIntent right now what's the total order volume for all fruits
+RealTimeIntent currently what's the order distribution of fruits based on {Attribute}
+
+RealTimeIntentTrends what's trending at twitter {Attribute}
+RealTimeIntentTrends what's trending at twitter at this {Attribute}
+RealTimeIntentTrends what's trending at twitter on this {Attribute}
+RealTimeIntentTrends what's trending at twitter {Attribute}
+
+
+
+
+RealTimeIntentTweets what's the distribution of tweets related to zoomdata and spark summit {Attribute}
+RealTimeIntentTweets what's the total {Metric} of tweets related to zoomdata and spark summit {Attribute}
+
+WelcomeIntent say hi to {Attribute} 
+WelcomeIntent say hi to {Attribute} group
+WelcomeIntent say hello to {Attribute} 
+WelcomeIntent say hello to {Attribute} group
+WelcomeIntent to say hello
+WelcomeIntent to say hi
+WelcomeIntent to say welcome
+WelcomeIntent to say some greeting
+WelcomeIntent what can you do
+
+

@@ -1,0 +1,147 @@
+{
+  "intents": [
+    {
+      "intent": "StockIntent",
+      "slots": [
+        {
+          "name": "Company",
+          "type": "TEXT"
+        },
+        {
+          "name": "Symbol"
+        }
+
+      ]
+    },
+    {
+
+      "intent": "ChartIntent",
+      "slots": [
+        {
+          "name": "Color",
+          "type": "LIST_OF_COLORS"
+        },
+        {
+          "name": "Attribute",
+          "type": "LIST_OF_ATTRIBUTES"
+        },
+        {
+          "name": "Metric",
+          "type": "LIST_OF_METRICS"
+        },
+        {
+          "name": "ChartType",
+          "type": "LIST_OF_CHART_TYPES"
+        }
+
+      ]
+    },
+
+    {
+      "intent": "DistributionIntent",
+      "slots": [
+
+        {
+          "name": "Metric",
+          "type": "LIST_OF_METRICS"
+        },
+        {
+          "name": "Attribute",
+          "type": "LIST_OF_ATTRIBUTES"
+        },
+        {
+          "name": "RangeType",
+          "type": "LIST_OF_RANGES"
+        },
+        {
+          "name": "TimeFilter",
+          "type": "AMAZON.DATE"
+        }
+      ]
+    },
+    {
+      "intent": "RealTimeIntent",
+      "slots": [
+        {
+          "name": "Attribute",
+          "type": "LIST_OF_ATTRIBUTES"
+        },
+        {
+          "name": "Metric",
+          "type": "LIST_OF_METRICS"
+        },
+        {
+          "name": "ChartType",
+          "type": "LIST_OF_CHART_TYPES"
+        }
+
+      ]
+    },
+    {
+      "intent": "RealTimeIntentTrends",
+      "slots": [
+        {
+          "name": "Attribute",
+          "type": "LIST_OF_ATTRIBUTES"
+        },
+        {
+          "name": "Metric",
+          "type": "LIST_OF_METRICS"
+        },
+        {
+          "name": "ChartType",
+          "type": "LIST_OF_CHART_TYPES"
+        }
+
+      ]
+    },
+    {
+      "intent": "RealTimeIntentTweets",
+      "slots": [
+        {
+          "name": "Attribute",
+          "type": "LIST_OF_ATTRIBUTES"
+        },
+        {
+          "name": "Metric",
+          "type": "LIST_OF_METRICS"
+        },
+        {
+          "name": "ChartType",
+          "type": "LIST_OF_CHART_TYPES"
+        }
+
+      ]
+    },
+    {
+      "intent": "TopIntent",
+      "slots": [
+
+        {
+          "name": "Metric",
+          "type": "LIST_OF_METRICS"
+        },
+        {
+          "name": "Attribute",
+          "type": "LIST_OF_ATTRIBUTES"
+        },
+        {
+          "name": "RangeType",
+          "type": "LIST_OF_RANGES"
+        },
+        {
+          "name": "TimeFilter",
+          "type": "AMAZON.DATE"
+        }
+      ]
+    },
+    {
+      "intent": "WelcomeIntent",
+      "slots":[{
+        "name": "Attribute",
+        "type": "LIST_OF_ATTRIBUTES"
+      }]
+    }
+  ]
+}
+

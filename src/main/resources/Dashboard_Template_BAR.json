@@ -1,0 +1,169 @@
+{
+  "name": "__VIS_NAME__",
+  "description": "",
+  "layout": "unset",
+  "showDescription": false,
+  "visualizations": [
+    {
+      "id": "5a0e190ee4b0e5f6a5084e41",
+      "visId": "58b5e1c8e4b05f19ec13f9f4",
+      "name": "Bars",
+      "type": "UBER_BARS",
+      "widgetId": "a41f78dcbb2855db99c1ce3384e9ee3b",
+      "layout": {
+        "col": 1,
+        "row": 1,
+        "colSpan": 4,
+        "rowSpan": 4
+      },
+      "source": {
+        "variables": {
+          "Multi Group By": [
+            {
+              "name": "__ATTRIBUTE__",
+              "limit": 50,
+              "sort": {
+                "dir": "desc",
+                "name": "count"
+              },
+              "label": "__ATTRIBUTE__",
+              "type": "ATTRIBUTE",
+              "groupColorSet": "ZoomSequential",
+              "autoShowColorLegend": false,
+              "colorNumb": 2,
+              "autoColor": true,
+              "groupColors": {}
+            }
+          ],
+          "Chart Name": "__VIS_NAME__",
+          "Metric": [ {
+            "name": "__METRIC_NAME__",
+            "func": "__METRIC_FUNC__"
+            }
+          ],
+          "Bar Color": [
+            {
+              "name": "count",
+              "colorConfig": {
+                "colorNumb": 3,
+                "legendType": "palette",
+                "colors": [
+                  {
+                    "name": "Color 1",
+                    "color": "#ffc65f"
+                  },
+                  {
+                    "name": "Color 2",
+                    "color": "#9eb778"
+                  },
+                  {
+                    "name": "Color 3",
+                    "color": "#0096b6"
+                  }
+                ],
+                "colorSet": "ZoomSequential",
+                "autoShowColorLegend": true,
+                "autoColor": true,
+                "colorPositions": null,
+                "colorScaleType": "gradient"
+              }
+            }
+          ],
+          "Chart Description": "",
+          "UberBarsSettings": {
+            "showXGrid": true,
+            "showYGrid": true,
+            "chartType": "plain",
+            "chartOrientation": "vertical",
+            "thickness": "100",
+            "showAbsoluteValues": false,
+            "showRelativeValues": false,
+            "showGroupLabels": true,
+            "enableLogScale": false
+          },
+          "Font": {
+            "barLabels": {
+              "size": "normal",
+              "typeface": "sans",
+              "align": "left",
+              "style": ""
+            },
+            "title": {
+              "size": "normal",
+              "typeface": "sans",
+              "align": "left",
+              "style": ""
+            }
+          },
+          "Rulers": {
+            "gridlines": {
+              "X1grid": false,
+              "Y1grid": true,
+              "X2grid": false,
+              "Y2grid": false
+            },
+            "axis": [
+              {
+                "axis": "Metric",
+                "name": "Metric",
+                "metricsName": "__METRIC_NAME__",
+                "from": 0,
+                "to": 10000000000,
+                "step": 2000000000,
+                "fromAuto": true,
+                "toAuto": true,
+                "stepAuto": true,
+                "logScaleEnabled": false,
+                "type": "yAxis"
+              }
+            ],
+            "reflines": []
+          },
+          "_SubheadFiltersList": true
+        },
+        "filters": [],
+        "sourceId": "__SOURCE_ID__",
+        "sourceName": "Alexa_RTS_Source",
+        "sourceType": "EDC2",
+        "sparkIt": false,
+        "playbackMode": false,
+        "textSearchEnabled": false,
+        "live": false
+      },
+      "dashboardLink": {"inheritFilterCfg": true},
+      "controlsCfg": {
+        "id": "5a0e1a43e4b0e5f6a5084e46",
+        "dashboardId": "5a0e190ee4b0e5f6a5084e3f",
+        "visualizationDefId": "5a0e190ee4b0e5f6a5084e41",
+        "timeControlCfg": {
+          "from": "__START_TIME__",
+          "to": "__END_TIME__",
+          "timeField": "_ts"
+        },
+        "playerControlCfg": {}
+      }
+    }
+  ],
+  "shareState": "NOT_SHARED",
+  "rememberTime": true,
+  "unifiedBarCfgs": [
+    {
+      "id": "5a0e1a43e4b0e5f6a5084e46",
+      "dashboardId": "5a0e190ee4b0e5f6a5084e3f",
+      "timeControlCfg": {
+        "from": "__START_TIME__",
+        "to": "__END_TIME__",
+        "timeField": "_ts"
+      },
+      "playerControlCfg": {},
+      "widgetIds": ["a41f78dcbb2855db99c1ce3384e9ee3b"],
+      "visualizationDefId": "5a0e190ee4b0e5f6a5084e41"
+    }
+  ],
+  "type": "UBER_BARS",
+  "userId": "58b5e1c8e4b05f19ec13f9e1",
+  "viewsCount": 0,
+  "selectedWidgetId": "a41f78dcbb2855db99c1ce3384e9ee3b",
+  "ownerName": "admin"
+}
+
